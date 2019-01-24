@@ -1,0 +1,7 @@
+c:\users\bjoe2770\source\repos\Porto\Porto\bin\Debug\Porto.exe.config
+c:\users\bjoe2770\source\repos\Porto\Porto\bin\Debug\Porto.exe
+c:\users\bjoe2770\source\repos\Porto\Porto\bin\Debug\Porto.pdb
+c:\users\bjoe2770\source\repos\Porto\Porto\obj\Debug\Porto.csprojAssemblyReference.cache
+c:\users\bjoe2770\source\repos\Porto\Porto\obj\Debug\Porto.csproj.CoreCompileInputs.cache
+c:\users\bjoe2770\source\repos\Porto\Porto\obj\Debug\Porto.exe
+c:\users\bjoe2770\source\repos\Porto\Porto\obj\Debug\Porto.pdb
