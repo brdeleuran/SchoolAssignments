@@ -1,0 +1,6 @@
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\bin\Debug\ValutaOmregner.exe.config
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\bin\Debug\ValutaOmregner.exe
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\bin\Debug\ValutaOmregner.pdb
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\obj\Debug\ValutaOmregner.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\obj\Debug\ValutaOmregner.exe
+C:\Users\bjoe2770\source\repos\ValutaOmregner\ValutaOmregner\obj\Debug\ValutaOmregner.pdb
