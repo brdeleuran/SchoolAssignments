@@ -1,0 +1,6 @@
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\bin\Debug\TerningeKast.exe.config
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\bin\Debug\TerningeKast.exe
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\bin\Debug\TerningeKast.pdb
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\obj\Debug\TerningeKast.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\obj\Debug\TerningeKast.exe
+C:\Users\bjoe2770\source\repos\TerningeKast\TerningeKast\obj\Debug\TerningeKast.pdb
