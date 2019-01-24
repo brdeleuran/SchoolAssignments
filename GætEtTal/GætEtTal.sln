@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GætEtTal", "GætEtTal\GætEtTal.csproj", "{22806C0E-FE0E-4F48-93C1-5E3CC6D30383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22806C0E-FE0E-4F48-93C1-5E3CC6D30383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22806C0E-FE0E-4F48-93C1-5E3CC6D30383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22806C0E-FE0E-4F48-93C1-5E3CC6D30383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22806C0E-FE0E-4F48-93C1-5E3CC6D30383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D3D432D-C2FB-46A3-9AEB-8D04BA7601AC}
+	EndGlobalSection
+EndGlobal
