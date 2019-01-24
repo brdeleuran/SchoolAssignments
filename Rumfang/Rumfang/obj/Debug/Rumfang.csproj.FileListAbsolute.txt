@@ -1,0 +1,6 @@
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\bin\Debug\Rumfang.exe.config
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\bin\Debug\Rumfang.exe
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\bin\Debug\Rumfang.pdb
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\obj\Debug\Rumfang.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\obj\Debug\Rumfang.exe
+C:\Users\bjoe2770\source\repos\Rumfang\Rumfang\obj\Debug\Rumfang.pdb
