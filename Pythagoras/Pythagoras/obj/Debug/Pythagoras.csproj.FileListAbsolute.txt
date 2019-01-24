@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\bin\Debug\Pythagoras.exe.config
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\bin\Debug\Pythagoras.exe
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\bin\Debug\Pythagoras.pdb
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\obj\Debug\Pythagoras.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\obj\Debug\Pythagoras.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\obj\Debug\Pythagoras.exe
+C:\Users\bjoe2770\source\repos\Pythagoras\Pythagoras\obj\Debug\Pythagoras.pdb
