@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\bin\Debug\CelciusOmregner.exe.config
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\bin\Debug\CelciusOmregner.exe
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\bin\Debug\CelciusOmregner.pdb
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\obj\Debug\CelciusOmregner.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\obj\Debug\CelciusOmregner.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\obj\Debug\CelciusOmregner.exe
+C:\Users\bjoe2770\source\repos\CelciusOmregner\CelciusOmregner\obj\Debug\CelciusOmregner.pdb
