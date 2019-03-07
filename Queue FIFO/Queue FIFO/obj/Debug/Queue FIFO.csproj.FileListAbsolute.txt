@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\bin\Debug\Queue FIFO.exe.config
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\bin\Debug\Queue FIFO.exe
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\bin\Debug\Queue FIFO.pdb
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\obj\Debug\Queue FIFO.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\obj\Debug\Queue FIFO.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\obj\Debug\Queue FIFO.exe
+C:\Users\bjoe2770\source\repos\Queue FIFO\Queue FIFO\obj\Debug\Queue FIFO.pdb
