@@ -1,0 +1,7 @@
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\bin\Debug\OOPVaskemaskine.exe.config
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\bin\Debug\OOPVaskemaskine.exe
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\bin\Debug\OOPVaskemaskine.pdb
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\obj\Debug\OOPVaskemaskine.csprojAssemblyReference.cache
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\obj\Debug\OOPVaskemaskine.csproj.CoreCompileInputs.cache
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\obj\Debug\OOPVaskemaskine.exe
+c:\users\bjoe2770\source\repos\OOPVaskemaskine\OOPVaskemaskine\obj\Debug\OOPVaskemaskine.pdb
