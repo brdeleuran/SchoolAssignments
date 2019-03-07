@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\bin\Debug\Queue PrimeNumbers.exe.config
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\bin\Debug\Queue PrimeNumbers.exe
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\bin\Debug\Queue PrimeNumbers.pdb
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\obj\Debug\Queue PrimeNumbers.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\obj\Debug\Queue PrimeNumbers.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\obj\Debug\Queue PrimeNumbers.exe
+C:\Users\bjoe2770\source\repos\Queue PrimeNumbers\Queue PrimeNumbers\obj\Debug\Queue PrimeNumbers.pdb
