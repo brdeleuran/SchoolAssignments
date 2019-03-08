@@ -14,7 +14,7 @@ namespace Library
         static void Main(string[] args)
         {
 
-            Book C = new Book(300, "Me", 1989, "C#");
+            Book C = new Book(300, "Me", 1989, "C");
             Book HTML = new Book(212, "Me", 1889, "HTML");
             Book CSS = new Book(100, "Me", 1689, "CSS");
             Book PHP = new Book(500, "Me", 1500, "PHP");
@@ -78,7 +78,7 @@ namespace Library
                         switch (pop)
                         {
                             case 1:
-                                loanerStack.Pop();
+                                C.Library.Add(loanerStack.Pop());
                                 break;
                             case 2:
                                 break;
