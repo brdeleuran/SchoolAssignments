@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\Automat\Automat\bin\Debug\Automat.exe.config
+C:\Users\bjoe2770\source\repos\Automat\Automat\bin\Debug\Automat.exe
+C:\Users\bjoe2770\source\repos\Automat\Automat\bin\Debug\Automat.pdb
+C:\Users\bjoe2770\source\repos\Automat\Automat\obj\Debug\Automat.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\Automat\Automat\obj\Debug\Automat.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Automat\Automat\obj\Debug\Automat.exe
+C:\Users\bjoe2770\source\repos\Automat\Automat\obj\Debug\Automat.pdb
