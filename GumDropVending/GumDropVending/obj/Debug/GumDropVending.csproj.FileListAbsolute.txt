@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\bin\Debug\GumDropVending.exe.config
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\bin\Debug\GumDropVending.exe
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\bin\Debug\GumDropVending.pdb
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\obj\Debug\GumDropVending.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\obj\Debug\GumDropVending.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\obj\Debug\GumDropVending.exe
+C:\Users\bjoe2770\source\repos\GumDropVending\GumDropVending\obj\Debug\GumDropVending.pdb
