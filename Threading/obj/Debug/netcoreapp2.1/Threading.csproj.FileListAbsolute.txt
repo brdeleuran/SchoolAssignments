@@ -1,0 +1,11 @@
+C:\Users\bjoe2770\source\repos\Threading\bin\Debug\netcoreapp2.1\Threading.deps.json
+C:\Users\bjoe2770\source\repos\Threading\bin\Debug\netcoreapp2.1\Threading.runtimeconfig.json
+C:\Users\bjoe2770\source\repos\Threading\bin\Debug\netcoreapp2.1\Threading.runtimeconfig.dev.json
+C:\Users\bjoe2770\source\repos\Threading\bin\Debug\netcoreapp2.1\Threading.dll
+C:\Users\bjoe2770\source\repos\Threading\bin\Debug\netcoreapp2.1\Threading.pdb
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.AssemblyInfoInputs.cache
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.AssemblyInfo.cs
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.dll
+C:\Users\bjoe2770\source\repos\Threading\obj\Debug\netcoreapp2.1\Threading.pdb
