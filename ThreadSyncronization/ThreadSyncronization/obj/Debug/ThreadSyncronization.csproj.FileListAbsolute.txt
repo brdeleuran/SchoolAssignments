@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\bin\Debug\ThreadSyncronization.exe.config
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\bin\Debug\ThreadSyncronization.exe
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\bin\Debug\ThreadSyncronization.pdb
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\obj\Debug\ThreadSyncronization.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\obj\Debug\ThreadSyncronization.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\obj\Debug\ThreadSyncronization.exe
+C:\Users\bjoe2770\source\repos\ThreadSyncronization\ThreadSyncronization\obj\Debug\ThreadSyncronization.pdb
