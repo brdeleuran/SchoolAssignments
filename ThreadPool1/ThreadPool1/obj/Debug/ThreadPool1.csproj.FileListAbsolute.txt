@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\bin\Debug\ThreadPool1.exe.config
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\bin\Debug\ThreadPool1.exe
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\bin\Debug\ThreadPool1.pdb
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\obj\Debug\ThreadPool1.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\obj\Debug\ThreadPool1.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\obj\Debug\ThreadPool1.exe
+C:\Users\bjoe2770\source\repos\ThreadPool1\ThreadPool1\obj\Debug\ThreadPool1.pdb
