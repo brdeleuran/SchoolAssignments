@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\bin\Debug\ThreadBottle.exe.config
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\bin\Debug\ThreadBottle.exe
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\bin\Debug\ThreadBottle.pdb
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\obj\Debug\ThreadBottle.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\obj\Debug\ThreadBottle.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\obj\Debug\ThreadBottle.exe
+C:\Users\bjoe2770\source\repos\ThreadBottle\ThreadBottle\obj\Debug\ThreadBottle.pdb
