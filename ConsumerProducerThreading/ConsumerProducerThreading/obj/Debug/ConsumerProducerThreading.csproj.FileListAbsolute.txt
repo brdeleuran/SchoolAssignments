@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\bin\Debug\ConsumerProducerThreading.exe.config
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\bin\Debug\ConsumerProducerThreading.exe
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\bin\Debug\ConsumerProducerThreading.pdb
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\obj\Debug\ConsumerProducerThreading.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\obj\Debug\ConsumerProducerThreading.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\obj\Debug\ConsumerProducerThreading.exe
+C:\Users\bjoe2770\source\repos\ConsumerProducerThreading\ConsumerProducerThreading\obj\Debug\ConsumerProducerThreading.pdb
