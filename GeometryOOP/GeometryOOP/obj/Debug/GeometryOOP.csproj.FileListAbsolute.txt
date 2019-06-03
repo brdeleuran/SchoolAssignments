@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\bin\Debug\GeometryOOP.exe.config
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\bin\Debug\GeometryOOP.exe
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\bin\Debug\GeometryOOP.pdb
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\obj\Debug\GeometryOOP.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\obj\Debug\GeometryOOP.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\obj\Debug\GeometryOOP.exe
+C:\Users\bjoe2770\source\repos\GeometryOOP\GeometryOOP\obj\Debug\GeometryOOP.pdb
