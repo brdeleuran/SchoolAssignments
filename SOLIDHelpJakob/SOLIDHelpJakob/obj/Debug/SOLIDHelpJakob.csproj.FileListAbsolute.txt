@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\bin\Debug\SOLIDHelpJakob.exe.config
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\bin\Debug\SOLIDHelpJakob.exe
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\bin\Debug\SOLIDHelpJakob.pdb
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\obj\Debug\SOLIDHelpJakob.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\obj\Debug\SOLIDHelpJakob.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\obj\Debug\SOLIDHelpJakob.exe
+C:\Users\bjoe2770\source\repos\SOLIDHelpJakob\SOLIDHelpJakob\obj\Debug\SOLIDHelpJakob.pdb
