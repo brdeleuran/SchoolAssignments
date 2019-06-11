@@ -11,12 +11,10 @@ namespace WebsiteSOLID
         static void Main(string[] args)
         {
             Logic logic = new Logic();
-            Console.WriteLine("Press 1 for webrequest.");
-
-            int destination = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Please input url");
             string input = Console.ReadLine();
-            string output = logic.GetData(input, destination);
+            logic.setRequest((IRequest)new Requester());
+            string output = logic.GetData(input);
             Console.WriteLine(output);
             Console.ReadKey();
         }

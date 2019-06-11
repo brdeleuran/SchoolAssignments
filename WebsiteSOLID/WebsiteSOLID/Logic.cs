@@ -10,26 +10,16 @@ namespace WebsiteSOLID
 {
     class Logic
     {
-        Requester Requester = new Requester();
-        public void GetData(string url, int destination)
+        IRequest request;
+
+        public void setRequest(IRequest r)
         {
-            try
-            {
-                switch (destination)
-                {
-                    case 1:
-                        url = "https://" + url;
-                        Console.WriteLine(Requester.DataRequester(url));
-                        break;
-                    default:
-                        Console.WriteLine("Denied");
-                        break;
-                }
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-            }
+            request = r;
+        }
+        public string GetData(string input)
+        {
+            string output = request.Request(input);
+            return output;
         }
     }
 }

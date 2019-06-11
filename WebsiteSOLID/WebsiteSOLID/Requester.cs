@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net;
+using System.IO;
 
 namespace WebsiteSOLID
 {
-    class Requester
+    class Requester : IRequest
     {
-        public string DataRequester(string url)
+        public string Request(string input)
         {
-            WebRequest request = WebRequest.Create(url);
-            WebResponse response = request.GetResponse();
-            return ((HttpWebResponse)response).StatusDescription;
+            string text = File.ReadAllText(input);
+            return text;
         }
     }
 }
