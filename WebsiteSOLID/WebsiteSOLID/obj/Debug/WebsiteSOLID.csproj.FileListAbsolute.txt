@@ -1,0 +1,7 @@
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\bin\Debug\WebsiteSOLID.exe.config
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\bin\Debug\WebsiteSOLID.exe
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\bin\Debug\WebsiteSOLID.pdb
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\obj\Debug\WebsiteSOLID.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\obj\Debug\WebsiteSOLID.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\obj\Debug\WebsiteSOLID.exe
+C:\Users\bjoe2770\source\repos\WebsiteSOLID\WebsiteSOLID\obj\Debug\WebsiteSOLID.pdb
