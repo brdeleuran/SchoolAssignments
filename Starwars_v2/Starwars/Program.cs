@@ -43,7 +43,7 @@ namespace Starwars
             ListItems(planets7);
 
             //Opgave 8
-            IEnumerable<Planet> planets8 = planets.Where(p => p.RotationPeriod < 30 || p.SurfaceWater > 50 && p.Name.Contains("ba"))
+            IEnumerable<Planet> planets8 = planets.Where(p => (p.RotationPeriod < 30 || p.SurfaceWater > 50) && p.Name.ToLower().Contains("ba"))
                                                         .OrderBy(p => p.Name).ThenBy(p => p.SurfaceWater).ThenBy(p => p.RotationPeriod);
             ListItems(planets8);
 
@@ -52,7 +52,8 @@ namespace Starwars
             ListItems(planets9);
 
             //Opgave 10
-            IEnumerable<Planet> planets10 = planets.Where(p => p.Diameter != 0 && p.Population != 0).OrderBy(p => 4 * Math.PI * Math.Pow((p.Diameter / 2), 2) / p.Population);
+            IEnumerable<Planet> planets10 = planets.Where(p => p.Diameter != 0 && p.Population != 0)
+                                                    .OrderBy(p => 4 * Math.PI * Math.Pow((p.Diameter / 2), 2) / p.Population);
             ListItems(planets10);
 
             //Opgave 11
@@ -67,11 +68,11 @@ namespace Starwars
             ListItems(planets12);
 
             //Opgave 13
-            IEnumerable<Planet> planets13 = planets.Where(p => p.Terrain != null && p.Terrain.Contains("desert") || p.Terrain.Contains("deserts") || p.Terrain.Contains("rocky deserts"));
+            IEnumerable<Planet> planets13 = planets.Where(p => p.Terrain != null && (p.Terrain.Contains("desert") || p.Terrain.Contains("deserts") || p.Terrain.Contains("rocky deserts")));
             ListItems(planets13);
 
             //Opgave 14
-            IEnumerable<Planet> planets14 = planets.Where(p => p.Terrain != null && p.Terrain.Contains("swamp") || p.Terrain.Contains("swamps"))
+            IEnumerable<Planet> planets14 = planets.Where(p => p.Terrain != null && (p.Terrain.Contains("swamp") || p.Terrain.Contains("swamps")))
                                                         .OrderBy(p => p.RotationPeriod).ThenBy(p => p.Name);
             ListItems(planets14);
 
@@ -82,6 +83,8 @@ namespace Starwars
             //Opgave 16
             IEnumerable<Planet> planets16 = planets.Where(p => Regex.IsMatch(p.Name.ToLower(), @"(k{2}|l{2}|r{2}|n{2})")).OrderByDescending(p => p.Name);
             ListItems(planets16);
+
+            Console.ReadKey();
         }
 
         public static void ListItems(IEnumerable<Planet> lambdaPlanets)
@@ -90,6 +93,7 @@ namespace Starwars
             {
                 Console.WriteLine(planet.Name);
             }
+            Console.WriteLine("===================================================");
         }
 
 
