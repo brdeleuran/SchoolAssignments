@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="CphAirportModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="airport">
+          <Key>
+            <PropertyRef Name="IATA" />
+          </Key>
+          <Property Name="IATA" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="Name" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="companies">
+          <Key>
+            <PropertyRef Name="companyID" />
+          </Key>
+          <Property Name="companyID" Type="int" Nullable="false" />
+          <Property Name="companyName" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="routeOperator">
+          <Key>
+            <PropertyRef Name="RID" />
+            <PropertyRef Name="operator" />
+          </Key>
+          <Property Name="RID" Type="int" Nullable="false" />
+          <Property Name="operator" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="routes">
+          <Key>
+            <PropertyRef Name="RID" />
+          </Key>
+          <Property Name="RID" Type="int" Nullable="false" />
+          <Property Name="owner" Type="int" />
+          <Property Name="destination" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK__routeOper__opera__2C3393D0">
+          <End Role="companies" Type="Self.companies" Multiplicity="1" />
+          <End Role="routeOperator" Type="Self.routeOperator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="companies">
+              <PropertyRef Name="companyID" />
+            </Principal>
+            <Dependent Role="routeOperator">
+              <PropertyRef Name="operator" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__routeOperat__RID__2B3F6F97">
+          <End Role="routes" Type="Self.routes" Multiplicity="1" />
+          <End Role="routeOperator" Type="Self.routeOperator" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="routes">
+              <PropertyRef Name="RID" />
+            </Principal>
+            <Dependent Role="routeOperator">
+              <PropertyRef Name="RID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__routes__destinat__29572725">
+          <End Role="airport" Type="Self.airport" Multiplicity="0..1" />
+          <End Role="routes" Type="Self.routes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="airport">
+              <PropertyRef Name="IATA" />
+            </Principal>
+            <Dependent Role="routes">
+              <PropertyRef Name="destination" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__routes__owner__2A4B4B5E">
+          <End Role="companies" Type="Self.companies" Multiplicity="0..1" />
+          <End Role="routes" Type="Self.routes" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="companies">
+              <PropertyRef Name="companyID" />
+            </Principal>
+            <Dependent Role="routes">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="CphAirportModelStoreContainer">
+          <EntitySet Name="airport" EntityType="Self.airport" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="companies" EntityType="Self.companies" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="routeOperator" EntityType="Self.routeOperator" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="routes" EntityType="Self.routes" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK__routeOper__opera__2C3393D0" Association="Self.FK__routeOper__opera__2C3393D0">
+            <End Role="companies" EntitySet="companies" />
+            <End Role="routeOperator" EntitySet="routeOperator" />
+          </AssociationSet>
+          <AssociationSet Name="FK__routeOperat__RID__2B3F6F97" Association="Self.FK__routeOperat__RID__2B3F6F97">
+            <End Role="routes" EntitySet="routes" />
+            <End Role="routeOperator" EntitySet="routeOperator" />
+          </AssociationSet>
+          <AssociationSet Name="FK__routes__destinat__29572725" Association="Self.FK__routes__destinat__29572725">
+            <End Role="airport" EntitySet="airport" />
+            <End Role="routes" EntitySet="routes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__routes__owner__2A4B4B5E" Association="Self.FK__routes__owner__2A4B4B5E">
+            <End Role="companies" EntitySet="companies" />
+            <End Role="routes" EntitySet="routes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="CphAirportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="airport">
+          <Key>
+            <PropertyRef Name="IATA" />
+          </Key>
+          <Property Name="IATA" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="routes" Relationship="Self.FK__routes__destinat__29572725" FromRole="airport" ToRole="routes" />
+        </EntityType>
+        <EntityType Name="company">
+          <Key>
+            <PropertyRef Name="companyID" />
+          </Key>
+          <Property Name="companyID" Type="Int32" Nullable="false" />
+          <Property Name="companyName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="routes" Relationship="Self.FK__routes__owner__2A4B4B5E" FromRole="companies" ToRole="routes" />
+          <NavigationProperty Name="routes1" Relationship="Self.routeOperator" FromRole="companies" ToRole="routes" />
+        </EntityType>
+        <EntityType Name="route">
+          <Key>
+            <PropertyRef Name="RID" />
+          </Key>
+          <Property Name="RID" Type="Int32" Nullable="false" />
+          <Property Name="owner" Type="Int32" />
+          <Property Name="destination" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="airport" Relationship="Self.FK__routes__destinat__29572725" FromRole="routes" ToRole="airport" />
+          <NavigationProperty Name="company" Relationship="Self.FK__routes__owner__2A4B4B5E" FromRole="routes" ToRole="companies" />
+          <NavigationProperty Name="companies" Relationship="Self.routeOperator" FromRole="routes" ToRole="companies" />
+        </EntityType>
+        <Association Name="FK__routes__destinat__29572725">
+          <End Role="airport" Type="Self.airport" Multiplicity="0..1" />
+          <End Role="routes" Type="Self.route" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="airport">
+              <PropertyRef Name="IATA" />
+            </Principal>
+            <Dependent Role="routes">
+              <PropertyRef Name="destination" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__routes__owner__2A4B4B5E">
+          <End Role="companies" Type="Self.company" Multiplicity="0..1" />
+          <End Role="routes" Type="Self.route" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="companies">
+              <PropertyRef Name="companyID" />
+            </Principal>
+            <Dependent Role="routes">
+              <PropertyRef Name="owner" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="routeOperator">
+          <End Role="companies" Type="Self.company" Multiplicity="*" />
+          <End Role="routes" Type="Self.route" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="CphAirportEntities2" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="airports" EntityType="Self.airport" />
+          <EntitySet Name="companies" EntityType="Self.company" />
+          <EntitySet Name="routes" EntityType="Self.route" />
+          <AssociationSet Name="FK__routes__destinat__29572725" Association="Self.FK__routes__destinat__29572725">
+            <End Role="airport" EntitySet="airports" />
+            <End Role="routes" EntitySet="routes" />
+          </AssociationSet>
+          <AssociationSet Name="FK__routes__owner__2A4B4B5E" Association="Self.FK__routes__owner__2A4B4B5E">
+            <End Role="companies" EntitySet="companies" />
+            <End Role="routes" EntitySet="routes" />
+          </AssociationSet>
+          <AssociationSet Name="routeOperator" Association="Self.routeOperator">
+            <End Role="companies" EntitySet="companies" />
+            <End Role="routes" EntitySet="routes" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="CphAirportModelStoreContainer" CdmEntityContainer="CphAirportEntities2">
+          <EntitySetMapping Name="airports">
+            <EntityTypeMapping TypeName="CphAirportModel.airport">
+              <MappingFragment StoreEntitySet="airport">
+                <ScalarProperty Name="IATA" ColumnName="IATA" />
+                <ScalarProperty Name="Name" ColumnName="Name" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="companies">
+            <EntityTypeMapping TypeName="CphAirportModel.company">
+              <MappingFragment StoreEntitySet="companies">
+                <ScalarProperty Name="companyID" ColumnName="companyID" />
+                <ScalarProperty Name="companyName" ColumnName="companyName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="routes">
+            <EntityTypeMapping TypeName="CphAirportModel.route">
+              <MappingFragment StoreEntitySet="routes">
+                <ScalarProperty Name="RID" ColumnName="RID" />
+                <ScalarProperty Name="owner" ColumnName="owner" />
+                <ScalarProperty Name="destination" ColumnName="destination" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="routeOperator" TypeName="CphAirportModel.routeOperator" StoreEntitySet="routeOperator">
+            <EndProperty Name="companies">
+              <ScalarProperty Name="companyID" ColumnName="operator" />
+            </EndProperty>
+            <EndProperty Name="routes">
+              <ScalarProperty Name="RID" ColumnName="RID" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
