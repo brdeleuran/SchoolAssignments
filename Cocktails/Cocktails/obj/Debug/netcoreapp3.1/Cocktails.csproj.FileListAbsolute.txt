@@ -1,4 +1,0 @@
-C:\Users\Bjoern Deleuran\source\repos\Cocktails\Cocktails\bin\Debug\netcoreapp3.1\Cocktails.exe
-C:\Users\Bjoern Deleuran\source\repos\Cocktails\Cocktails\obj\Debug\netcoreapp3.1\Cocktails.csprojAssemblyReference.cache
-C:\Users\Bjoern Deleuran\source\repos\Cocktails\Cocktails\obj\Debug\netcoreapp3.1\Cocktails.AssemblyInfoInputs.cache
-C:\Users\Bjoern Deleuran\source\repos\Cocktails\Cocktails\obj\Debug\netcoreapp3.1\Cocktails.AssemblyInfo.cs
