@@ -1,0 +1,14 @@
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\bin\Debug\WindowsFormsApp14.exe.config
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\bin\Debug\WindowsFormsApp14.exe.manifest
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\bin\Debug\WindowsFormsApp14.application
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\bin\Debug\WindowsFormsApp14.exe
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\bin\Debug\WindowsFormsApp14.pdb
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\CiscoConfig.csprojAssemblyReference.cache
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.Form1.resources
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.Properties.Resources.resources
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\CiscoConfig.csproj.GenerateResource.cache
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\CiscoConfig.csproj.CoreCompileInputs.cache
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.exe.manifest
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.application
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.exe
+C:\Users\bjoe2770\source\repos\WindowsFormsApp14\WindowsFormsApp14\obj\Debug\WindowsFormsApp14.pdb
